@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Cherry+Swash');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    margin: 0;
+    font-family: 'Montserrat', helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-image: url(../img/background_1.jpg);
+    /* background-image: url(../img/background_gif_1.gif); */
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* card ///////////////////////////////////////////////////*/
+.horos_card {
+    position: relative;
+    display: block;
+    width: 800px;
+    height: 450px;
+    margin: 80px auto; 
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.4s;
+    /* box-shadow: 0px 0px 120px -25px rgba(0,0,0, 0.5); */
+    /* box-shadow: 0px 0px 1020px rgba(255,255,255, 1); */
+}
+
+.horos_card:hover {
+    transform: scale(1.02);
+    transition: all 0.4s;
+    box-shadow: 0px 0px 1020px rgba(255,255,255, 1);
+}
+
+.info_section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+	background-blend-mode: multiply;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.horos_header {
+    position: relative;
+    padding: 25px;
+    height: 40%;
+}
+
+h1 {
+    color: #555;
+    font-weight: 400;
+    font-family: 'Cherry Swash', cursive;
+}
+
+h4 {
+    color: #555;
+    font-weight: 400;
+}
+
+.box {
+    display: inline-block;
+    color: #555;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #063053;
+}
+
+/* sunsign top left */
+.locandina {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    height: 130px;
+    /* box-shadow: 0 0 5px 5px rgba(17,120,209,0.5); */
+    border-radius: 50%;
+}
+    
+.horos_desc {
+    padding-left: 25px;
+    height: 50%;
+}
+
+.text{
+    color: #545454;
+}
+
+/* background image card */
+.blur_back {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100%; 
+    right: -100px;
+    background-size: cover;
+    border-radius: 11px;
+}
+
+.card_background {
+    width: 100%;
+    height: 100%;
+}
+
+/* buttons on card /////////////////////////////////////*/
+.button {
+  width: 100px;
+  color: #fff;
+  border-radius: 12px;
+  margin-left: 25px;
+  background: #063053;
+  font-family: 'Montserrat', helvetica, arial, sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+color: #063053;
+background: #fff;
+box-shadow: 0px 0px 5px #063053;
+}
+
+.backButton {
+  margin-right: 25px;
+  float: right;
+  border-radius: 12px;
+  width: 100px;
+  color: #fff;
+  background: #063053;
+  font-family: 'Montserrat', helvetica, arial, sans-serif;
+  border: none;
+  box-shadow: 0px 0px 5px #fff;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  color: #063053;
+  background: #fff;
+  box-shadow: 0px 0px 5px #063053;
+}
+
+
+@media screen and (min-width: 768px) {
+  .horos_header{
+    width: 65%;
+  }
+  
+  .horos_desc{
+    width: 50%;
+  }
+  
+  .info_section{
+    background: linear-gradient(to right, #e5e6e6 50%, transparent 100%);
+  }
+  
+  .blur_back{
+    width: 80%;
+    background-position: -100% 10% !important;  
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .horos_card{
+    width: 95%;
+    margin: 70px auto; 
+    min-height: 350px;
+    height: auto;
+  }
+  
+  .blur_back{
+    width: 100%;
+    background-position: 50% 50% !important;  
+  }
+  
+  .horos_header{
+    width: 100%;
+    margin-top: 85px;
+  }
+  
+  .horos_desc{
+    width: 100%;
+  }
+  
+  .info_section{
+    background: linear-gradient(to top, #e5e6e6 50%, transparent 100%);
+    display: inline-grid;
+  }
+}
+
+
+
+

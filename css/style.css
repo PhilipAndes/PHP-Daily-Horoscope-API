@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Cherry+Swash');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cherry Swash', cursive;
+}
+
+#background1 {
+    background: url(../img/background_2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*header text */
+.page-header {
+    text-align: center;
+    color: #fff;
+    margin: 50px;
+}
+
+/* align sunsigns in center */
+.row {
+    text-align: center;
+    margin: 30px;
+    color: #fff;
+    text-shadow: 0px 0px 5px #000;
+}
+
+/* space between sunsigns */
+.col-xs-12, .col-sm-4, .col-md-3, .col-lg-2 {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+/* sunsign images */
+img { 
+    transition: all 1s ease-in-out 0s; 
+    box-shadow: 0px 0px 10px #fff;
+}
+
+img:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: all 1s ease-in-out 0s;
+    opacity: 0.45;
+}
+
+
