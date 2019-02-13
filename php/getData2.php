@@ -52,6 +52,7 @@
         '<div class="horos_header">' .
       
         '<img class="locandina" src="/codegorilla/horoscope/img/' . $row['horo_img'] . '" alt="' . '" >' .
+        // '<img class="locandina" src="/img/' . $row['horo_img'] . '" alt="' . '" >' .
         '<a href="getData.php?id=' . $row['horo_id'] . '">' . '</a>' .
 
         '<h1>' . $sterrenBeeld -> sunsign . '</h1>' .
@@ -82,6 +83,8 @@
         //background image
         '</div>' .
         '<div class="blur_back bright_back">' . '<img class="card_background" src="/codegorilla/horoscope/img/' . $row['horo_img'] . '" alt="' . '" >' . '</div>' .
+
+        // '<div class="blur_back bright_back">' . '<img class="card_background" src="/img/' . $row['horo_img'] . '" alt="' . '" >' . '</div>' .
         '</div>';
       
   } 

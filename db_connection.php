@@ -5,6 +5,11 @@ $username = "root";
 $password = "";
 $database = "horoscope";
 
+// $servername = "rdbms.strato.de";
+// $username = "U3672335";
+// $password = "@Codegorilla1234";
+// $database = "DB3672335";
+
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
     // set the PDO error mode to exception

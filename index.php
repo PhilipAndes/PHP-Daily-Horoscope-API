@@ -13,6 +13,11 @@
 </head>
 <body id="background1">
 
+<!-- go back to portfolio -->
+    <div class="go-back">
+        <a href="http://philipandes.com">Philip Andes</a>
+    </div>
+
 <!-- Header -->
     <div class="page-header">
         <h1>Daily Horoscope <br />
