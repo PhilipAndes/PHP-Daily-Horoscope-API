@@ -168,12 +168,17 @@ box-shadow: 0px 0px 5px #063053;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+  html, body {
+    /* background: #103A77; */
+  }
+
   .horos_card{
     width: 95%;
     margin: 70px auto; 
     min-height: 350px;
     height: auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
   }
   
   .blur_back{
@@ -192,35 +197,40 @@ box-shadow: 0px 0px 5px #063053;
   }
   
   .info_section{
-    background: linear-gradient(to top, #e5e6e6 50%, transparent 100%);
+    background: linear-gradient(to top, #e5e6e6 40%, transparent 100%);
     display: inline-grid;
   }
 
   .button {
     margin-bottom: 10px;
-    margin-left: 40%;
+    margin-left: 35%;
+    width: 120px;
   }
 
   .backButton {
     float: left;
-    margin-left: 40%;
+    margin-left: 35%;
     margin-bottom: 10px;
+    width: 120px;
   }
 
   h1 {
-    color: #000;
+    color: #fff;
+    text-shadow: 0px 0px 5px #000;
     font-weight: 400;
     font-family: 'Cherry Swash', cursive;
     z-index: 999;
 }
 
   h4 {
-    color: #000;
+    color: #fff;
+    text-shadow: 0px 0px 5px #000;
     font-weight: 400;
 }
 
   .box {
     color: #000;
+    /* text-shadow: 0px 0px 5px #000; */
 }
 
 }

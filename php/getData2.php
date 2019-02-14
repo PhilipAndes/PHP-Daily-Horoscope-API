@@ -70,6 +70,7 @@
         // buttons
         
         '<a href="getData2.php?sb=' . $sb . '&day=yesterday">' . '<button class="button"><i class="fas fa-angle-left"></i> Yesterday </button>' . '</a>' .
+        
         '<a href="getData2.php?sb=' . $sb . '&day=today">' . '<button class="button"> Today </button>' . '</a>' .
 
         '<a href="getData2.php?sb=' . $sb . '&day=tomorrow">' . '<button class="button"> Tomorrow <i class="fas fa-angle-right"></i></button>' . '</a>' .
